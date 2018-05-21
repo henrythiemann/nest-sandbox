@@ -9,6 +9,17 @@
     "no-unused-expression": true
   },
   "rules": {
+    "no-console": {
+      "severity": "warning",
+      "options": [
+        "debug",
+        "info",
+        "log",
+        "time",
+        "timeEnd",
+        "trace"
+      ]
+    },
     "member-access": [
       false
     ],

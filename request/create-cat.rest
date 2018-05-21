@@ -1,0 +1,12 @@
+POST http://localhost:5000/cats
+content-type: application/json
+
+{
+    "name": "cat",
+    "age": 1,
+    "breed": "poopcat"
+}
+
+###
+
+GET http://localhost:5000/cats
